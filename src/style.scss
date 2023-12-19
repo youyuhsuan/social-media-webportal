@@ -1,0 +1,23 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Verdana", "Hiragino Sans", "Meieyo", sans-serif;
+}
+
+.container-fluid {
+  background-color:$mintgreen;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.btn-sample{
+  background-color: $fuchsia;
+  color: $light;
+}
